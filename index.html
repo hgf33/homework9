@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<!--Root Element-->
+<html>
+    <!--Head Section-->
+    <head>
+        <title>
+            Hugo Portfolio
+        </title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <!--Body Section-->
+    <body>
+        <section id="name"></section>
+        <div class="container">
+            <div class="header"> 
+                <h1>Hugo's Portfolio</h1>
+            </div>
+                <div class="sidebar"> 
+                    <ul class="section">
+
+                    </ul>
+
+                        <p>Contact Information</p>    
+                        
+                        <h3>Download Resume</h3>
+                        <hr />
+                        <div class="resume-button">
+                            <button><b><a href="resume.pdf" download="Resume">Download Resume</a></b></button>
+                        </div>
+                        <div class="count"> 0 downloads</div>
+                    
+                </div>
+
+            <div class="main-content">
+                <section>
+                <div id="summary">
+                    <h3>Summary</h3>
+                    <hr />
+                    <h3>Role</h3>
+                    <b>Computer Sciecne and Japanese IGP emphasis Major Studentt at NAU</b> <br />
+                    <h3>Aspiration</h3>
+                    <b>Have better practice on Computer Sciecne and to study abroad.</b> <br />
+                </div>
+            </section>
+                    
+            <section>
+                    <div id="about-me">
+                    <!--About me-->
+                    <h3>About me</h3>
+                    <p>
+                        Hello, my name is Hugo Figueroa. I am 19 years old <b>I am Computer Sciecne and Japanese Major.</b> I am sophmore college student, and I am very happy to be here. What I plan to do for my entire college career is <b><i>have a better practice on computer science for my career in the professional setting and to study abroad in Japan for a year.</i></b>
+                    </p>
+                    </div>
+                </section>
+
+                <section>
+                    <div id="skills">
+                    <!--Skills-->
+                        <h3>Skills </h3>
+                        <hr />
+                        <input id="newSkills" placeholder="Enter New SKills Here"></input> 
+                        <button onclick="addEditRemove()">Submit New Skills</button>
+                        <div id="skillset">
+                            <ul id="list"></ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                
+                    <div class="projects">
+                        <!--Projects-->
+                        <div class="hproject">
+                            <h3 id="projects">Projects</h3>
+                            <hr />
+                        </div>
+
+                        <div id="project-js"></div>
+
+                       <div class=" mproject"></div>
+
+                        <div class="ongoing"></div>
+                         <p id="status">Placement</p>
+                         <section id="future"></section>
+                    </div>
+                </section>
+
+                    <section>
+                    <div id="education-and-experience">
+                        
+                        <!--Education and Experience-->
+                        <div class="school">
+                        <h3>Education and Experience</h3>
+                        <hr />
+                        <h4><ins>Education</ins></h4>
+                        <img class="nau" src="NAU.jpg" height="100" width="100"alt="NAU">
+                        <p> This is portion is about my education and work experience</p>
+                        <b>Nothern Arizona University, Flagstaff AZ</b>
+                        <div class="edu">
+                            <table border="1">
+                                <!--Table head -->
+                                <thead>
+                                    <tr>
+                                        <th>GPA</th>
+                                        <th>Graduation</th>
+                                        <th>Major</th>
+                                        <th>Scholarships</th>
+                                    </tr>
+                                </thead>
+                                <!--Table Body-->
+                                <tbody>
+                                    <tr>
+                                        <td rowspan="2">3.6</td>
+                                        <td rowspan="2">May 2030 (expected)</td>
+                                        <td>Computer Science</td>
+                                        <td rowspan="2">Lumberjack Scholarship</td>
+                                    </tr>
+
+                                    <tr>
+                                        
+                                        <td>Japanese (IGP Emphasis)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                        <div class="work-ex"> 
+                        <h4><ins>Work Experience</ins></h4>
+                        <img class="me" src="pic-of-me.jpeg" height="200" alt="DNA header code">
+                        <p> Below this section, this is a litle summary of my work expereicne from my employer, job description, how long I worked there for, and date.</p>
+                        <div class="work">
+                        <table border="1">
+                                <!--Table head -->
+                                <thead>
+                                    <tr>
+                                        <th>Employer</th>
+                                        <th>Role</th>
+                                        <th>Job description</th>
+                                        <th>Date</th>
+                                    </tr>
+                                </thead>
+
+                                <!--Table Body-->
+                                <tbody>
+                                    <tr>
+                                        <td>McDonalds</td>
+                                        <td>Crew Member</td>
+                                        <td rowspan="2">
+                                            <ul>
+                                                <li>Executed precise, step-by-step food preparation in a fast-paced environment, ensuring consistency and quality control resulting in positiver customer expereince.</li>
+                                                <li>Assembled food productys according to standardized procedures and safety protocols to complete guest orders.</li>
+                                                <li>Collaborated with team members to meet time-sensitive operational goals.</li>
+                                            </ul></td>
+                                        <td>Aug 2025 - Aug 2025</td>
+                                    </tr>
+
+                                    <tr>
+                                        <tr>
+                                            <td>Parker Unified School District</td>
+                                            <td>Summer Maintenance</td>
+                                            <td rowspan="2">
+                                                <ul>
+                                                    <li>Assisted on helping lift and transport</li>
+                                                    <li></li>Painted, scraped, and supported general maintenance tasks to prepare the location for the upcoming school year.</li>
+                                                    <li>Worked independently and as a part of a team to meet daily goals supporting the maintenance team.</li>
+                                                </ul>
+                                            </td>
+                                            <td>June 2025 - July 2025</td>
+                                        </tr>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>  
+                        </div>
+                    </div>
+                </section>
+
+                    
+
+            </div>
+
+            <div class="footer">
+                <div class="contact-info">
+                        <!--Contact Information-->
+                        <h3>Contact Information</h3>
+                        <hr />
+                        <b>Email:</b> <a href="mailto:hgf33@nau.edu">hgf33@nau.edu</a><br />
+                        <b>Phone:</b> <a href="callto:+19287063109">+1 (928)-706-3109</a><br />
+                        <b>GitHub:</b> <a href="https://github.com/hgf33" target="_blank">github.com/hgf33</a><br />
+                    </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="app.js"></script>
+        <script>
+            document.getElementById("name").textContent = showGreeting("Hugo");
+            document.getElementById("future").textContent = "Days until deadline: " + remainingDays;
+        </script>
+    </body>
+</html>
